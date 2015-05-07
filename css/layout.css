@@ -1,0 +1,81 @@
+body {
+ margin: 0;
+ font: 13px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+ color:#000;
+ background: url('../images/site-bg.png') no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+body.inner {
+ background: url('../images/inner-bg.jpg') no-repeat center center fixed; 
+}
+.login-form{
+	position: absolute;
+	bottom:60px;
+	background:#ffff66;
+	padding:25px;
+	width:390px;
+}
+.round-image{
+	margin-top:30px;
+}
+.required.error{
+	border:1px solid #F00!important;
+}
+label.error{
+	color:#F00;
+	font-size:10px;
+	float:left;
+	display:none!important;
+}
+#login input[type="submit"]{
+	background-color: #990000;
+    border: 2px solid #000;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 0 10px;
+}
+#login .input-group input[type="password"]{
+	margin-left:-2px;
+}
+.response-msg.error{
+	color:#F00;
+}
+.do-you-think{
+	text-align:center;
+	padding-left:40px;
+	padding-top:20px;
+	
+}
+.register-form{
+	padding-left:100px;
+}
+#login .input-group label{
+	text-align:right;
+	width:70px;
+}
+.register-form .input-group label{
+ text-align: left !important;
+    width: 100% !important;
+	margin-bottom:0px!important;
+}
+.register-form .input-group input[type="text"],
+.register-form .input-group input[type="password"],
+.register-form .input-group textarea{
+    width: 100% !important;
+	background-color: #ffff66;
+	border:0px;
+    border-bottom: 1px dotted #000;
+    font-size: 11px;
+}
+.red-star{
+	color:#F00;
+}
+.dish-listing{
+	padding-left:50px;
+	height:370px;
+	overflow:scroll;
+}
